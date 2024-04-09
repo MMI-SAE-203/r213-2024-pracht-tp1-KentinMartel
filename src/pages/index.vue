@@ -5,9 +5,7 @@ const maVar = ref(true)
 </script>
 
 <template>
-  <button @click="maVar = false">cache</button>
-  <br> 
-  <button @click="maVar = true">pas cache</button>
+  <button @click="maVar=!maVar">Bouton</button>
 
   <h1 v-show="maVar" class="text-2xl">Bonjour monde !</h1>
 </template>
