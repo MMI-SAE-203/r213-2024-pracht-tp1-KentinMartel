@@ -12,7 +12,7 @@ const menuIsOpen = ref(false)
 </script>
 
 <template>
-  <div class="bg-red-300 h-dvh">
+  <div class="bg-red-300 h-dvh w-52">
     <header>
       <nav>
         <ul>
