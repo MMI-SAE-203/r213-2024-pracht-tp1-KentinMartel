@@ -35,13 +35,20 @@ const menuIsOpen = ref(false)
   menu
 </button>
 <!-- nav#mainNav>ul>li*3>a[href="#"]{item $} -->
+<Transition
+  class="transition-transform duration-500"
+  enter-from-class="-translate-x-full"
+  enter-to-class="translate-x-0"
+  leave-active-class="-translate-x-full"
+>
 <nav v-show="menuIsOpen" id="mainNav">
+
   <ul>
     <li><a href="#">item 1</a></li>
     <li><a href="#">item 2</a></li>
     <li><a href="#">item 3</a></li>
   </ul>
 </nav>
-
+</Transition>
 </template>
 
