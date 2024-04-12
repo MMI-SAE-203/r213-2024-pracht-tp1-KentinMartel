@@ -1,12 +1,12 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const maVar = ref(true)
+const menuIsOpen = ref(false)
 </script>
 
 <template>
-  <button @click="maVar=!maVar">Bouton</button>
 
-  <h1 v-show="maVar" class="text-2xl">Bonjour monde !</h1>
+<h1>My first Vue 3 app</h1>
 </template>
 
