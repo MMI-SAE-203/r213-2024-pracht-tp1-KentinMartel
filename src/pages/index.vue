@@ -9,3 +9,4 @@ const maVar = ref(true)
 
   <h1 v-show="maVar" class="text-2xl">Bonjour monde !</h1>
 </template>
+
